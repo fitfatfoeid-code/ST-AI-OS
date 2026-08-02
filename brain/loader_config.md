@@ -1,29 +1,15 @@
 ---
-id: loader_config
-version: 1.0.0
+id: brain_loader
+version: 2.0.0
 module: loader
 ---
 
-load_order:
+modules:
 
-  - brain/constitution/core.md
-  - brain/constitution/identity.md
-  - brain/constitution/mission.md
-  - brain/constitution/values.md
-  - brain/constitution/rules.md
-  - brain/constitution/limitations.md
-  - brain/constitution/communication.md
+  - constitution
 
 loading:
 
   strategy: sequential
 
-  stop_if_missing: true
-
   merge: true
-
-  preserve_order: true
-
-output:
-
-  merged_context
