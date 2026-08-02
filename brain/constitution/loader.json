@@ -1,0 +1,16 @@
+{
+  "loadOrder": [
+    "brain/constitution/core.md",
+    "brain/constitution/identity.md",
+    "brain/constitution/mission.md",
+    "brain/constitution/values.md",
+    "brain/constitution/rules.md",
+    "brain/constitution/limitations.md",
+    "brain/constitution/communication.md"
+  ],
+  "loading": {
+    "strategy": "sequential",
+    "merge": true,
+    "stopIfMissing": true
+  }
+}
